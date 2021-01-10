@@ -1,0 +1,19 @@
+const age = prompt("enter your age : ");
+odd=age%2;
+ps = Math.sqrt(age);
+if(age<0){
+    alert("invalid age! fuck !! are you testing mee!!!!");
+}
+else if(age===21){
+    alert("happy 21st birthday");
+}
+else if(age===odd){
+    alert("your age is odd");
+    
+}
+else if(age%ps===0){
+    alert("perfect square");
+}
+else{
+    alert("wow!! you are "+ age +"years old");
+}
